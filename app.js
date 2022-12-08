@@ -12,8 +12,15 @@ var setup = function(){
     drawGodJul(xMid, yMid + 50);
 
     // examples
-    drawJulekugle(xMid - 150, yMid + 170);
+    drawJulekugle(xMid - 25, yMid + -20);
+    drawJulekugle(xMid - 40, yMid + 160);
+    drawJulekugle(xMid - -125, yMid + 150);
+    drawJulekugle(xMid - 150, yMid + 150);
+    drawJulekugle(xMid - -200, yMid + 250);
+    drawJulekugle(xMid - 130, yMid + 300);
+    drawDannebrog(xMid + 250, yMid - 40);
     drawDannebrog(xMid + 100, yMid - 100);
+    drawDannebrog(xMid + 25, yMid - 37);
 
     // call you own functions here
     drawTemplate(260, 780);
