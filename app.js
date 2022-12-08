@@ -26,9 +26,6 @@ var setup = function(){
     drawJulekugle(xMid - -100, yMid + 200);
     drawJulekugle(xMid - -35, yMid + 260);
     drawJulekugle(xMid - 150, yMid + 160);
-    
-
-
     drawDannebrog(xMid + -40, yMid - 40);
     
 
