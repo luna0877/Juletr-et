@@ -24,7 +24,8 @@ var setup = function(){
     drawJulekugle(xMid - 130, yMid + 300);
     drawDannebrog(xMid + 250, yMid - 40);
     drawDannebrog(xMid + 100, yMid - 100);
-    drawDannebrog(xMid + 25, yMid - 37);
+    drawJulekugle(xMid - 0, yMid + 200);
+    drawDannebrog(xMid + 200, yMid - 200);
 
     // call you own functions here
     drawTemplate(260, 780);
