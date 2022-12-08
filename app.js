@@ -28,8 +28,11 @@ var drawTree = function (centerX, centerY) {
     rect(centerX - 25, centerY + 275, 50, 75);
 
     // leaves
-    for (var i = 0; i < 3; i++) 
-        drawLevel(centerX, centerY, i);
+    var counter = 0;
+    while (counter < 3){
+        drawLevel(centerX, centerY, counter);
+        counter++;
+    } 
 
     pop();
 };
@@ -37,10 +40,10 @@ var drawTree = function (centerX, centerY) {
 var drawLevel = function(centerX, centerY, level) {
     push()
     fill(0, 153, 0);
-    var slimSize = 50 * level;
+    var slimSize = 20 * level;
     var baseWidth = 600;
     var baseHeight = 0.5 * baseWidth;
-    var horizontalSpace = 120;
+    var horizontalSpace = 80;
     var baseY = centerY + 280 - level * horizontalSpace;
     const halfWidth = baseWidth / 2 - slimSize;
     triangle(centerX - halfWidth, baseY, centerX, baseY - baseHeight, centerX + halfWidth, baseY);
