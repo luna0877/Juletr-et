@@ -23,11 +23,22 @@ var setup = function(){
     drawJulekugle(xMid - 90, yMid + -25);
     drawJulekugle(xMid - 100, yMid + 300);
     drawJulekugle(xMid - 40, yMid + 160);
+<<<<<<< HEAD
     drawJulekugle(xMid - -100, yMid + 200);
     drawJulekugle(xMid - -35, yMid + 260);
     drawJulekugle(xMid - 150, yMid + 160);
     drawDannebrog(xMid + -40, yMid - 40);
     
+=======
+    drawJulekugle(xMid - -125, yMid + 150);
+    drawJulekugle(xMid - 150, yMid + 140);
+    drawJulekugle(xMid - -200, yMid + 250);
+    drawJulekugle(xMid - 130, yMid + 300);
+    drawDannebrog(xMid + 250, yMid - 40);
+    drawDannebrog(xMid + 100, yMid - 100);
+    drawJulekugle(xMid - 0, yMid + 200);
+    drawDannebrog(xMid + 200, yMid - 200);
+>>>>>>> f8530e6f4bfcda2564bc50eeff7e4e15ddb81532
 
     // call you own functions here
     drawTemplate(260, 780);
