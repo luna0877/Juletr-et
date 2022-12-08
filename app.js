@@ -1,4 +1,8 @@
 console.log("Js called");
+
+document.body.style.backgroundColor = "darkseagreen";
+
+
 var setup = function(){
     push();
     // base
@@ -36,7 +40,7 @@ var drawTree = function (centerX, centerY) {
 
     // leaves
     var counter = 0;
-    while (counter < 3){
+    while (counter < 6){
         drawLevel(centerX, centerY, counter);
         counter++;
     } 
@@ -56,6 +60,9 @@ var drawLevel = function(centerX, centerY, level) {
     triangle(centerX - halfWidth, baseY, centerX, baseY - baseHeight, centerX + halfWidth, baseY);
     pop()
 };
+
+
+
 
 /**
  * Should draw a background the tree
